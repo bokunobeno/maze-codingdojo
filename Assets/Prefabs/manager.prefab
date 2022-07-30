@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6822750332650137007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6822750332650137001}
+  - component: {fileID: 6822750332650137000}
+  m_Layer: 0
+  m_Name: manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6822750332650137001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822750332650137007}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.8220057, y: -18.854553, z: 2.2669783}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6822750332650137000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822750332650137007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71ab772dbc6383a4b8336ab72c1ebfd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myGradient:
+    serializedVersion: 2
+    key0: {r: 0.37040585, g: 0.1490196, b: 0.67058825, a: 1}
+    key1: {r: 0.1490196, g: 0.24480395, b: 0.67058825, a: 1}
+    key2: {r: 0.1490196, g: 0.621409, b: 0.63523763, a: 1}
+    key3: {r: 0.1490196, g: 0.67058825, b: 0.44519728, a: 1}
+    key4: {r: 0.4808781, g: 0.67058825, b: 0.1490196, a: 1}
+    key5: {r: 0.67058825, g: 0.5527798, b: 0.1490196, a: 1}
+    key6: {r: 0.67058825, g: 0.35575244, b: 0.1490196, a: 1}
+    key7: {r: 1, g: 0, b: 0, a: 1}
+    ctime0: 0
+    ctime1: 9830
+    ctime2: 17155
+    ctime3: 25250
+    ctime4: 33924
+    ctime5: 42405
+    ctime6: 55512
+    ctime7: 65535
+    atime0: 0
+    atime1: 10023
+    atime2: 16769
+    atime3: 24865
+    atime4: 33924
+    atime5: 42405
+    atime6: 56669
+    atime7: 65535
+    m_Mode: 0
+    m_NumColorKeys: 8
+    m_NumAlphaKeys: 8
+  myOuterGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  strobeDuration: 10
+  mat: {fileID: 2100000, guid: 1bcfe8af791e7d946970340cc34d3ca5, type: 2}
+  ground: {fileID: 2100000, guid: 9d741ab8c66c9fa4f9f0fd7592981972, type: 2}
